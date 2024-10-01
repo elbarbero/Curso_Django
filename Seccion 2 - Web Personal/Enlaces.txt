@@ -1,0 +1,6 @@
+https://pipenv-es.readthedocs.io/es/latest/
+https://hektorprofe.github.io/instalardjango.com/
+https://gist.github.com/hcosta/6e4066ad1b938c888546c5f0a9616c48
+https://docs.djangoproject.com/en/dev/ref/django-admin/
+https://docs.djangoproject.com/en/2.0/ref/request-response/#httpresponse-objects
+https://docs.hektorprofe.net/django/web-personal/app-core-vistas/
