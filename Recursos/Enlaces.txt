@@ -1,0 +1,4 @@
+https://github.com/hektorprofe/webpersonal
+https://github.com/hektorprofe/webempresa
+https://github.com/hektorprofe/webplayground
+https://www.djangoproject.com/
