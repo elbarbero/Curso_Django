@@ -1,0 +1,2 @@
+instalar desde consola.
+pipenv install django django-ckeditor Pillow pylint pylint-django pylint-celery
