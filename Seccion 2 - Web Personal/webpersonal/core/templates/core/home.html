@@ -1,22 +1,14 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-</head>
+{% extends 'core/base.html' %}
 
-<header>
-    <h1>Mi Web Personal</h1>
+{% block title %}Portada{% endblock %}
 
-    <ul>
-        <li><a href="/">Portada</a></li>
-        <li><a href="/about-me">Acerca de</a></li>
-        <li><a href="/porfolio">Porfolio</a></li>
-        <li><a href="/contact">Contacto</a></li>
-    </ul>
-</header>
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
 
-<body>
-    <h2>Portada</h2>
+{% block headers %}
+<h1>Mario Barbero</h1>
+<span class="subheading">Desarrollador</span>
+{% endblock %}
 
-    <p>Esto es la portada</p>
-</body>
+{% block content %}
+
+{% endblock %}

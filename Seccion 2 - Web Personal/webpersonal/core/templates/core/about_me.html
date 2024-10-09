@@ -1,22 +1,23 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-</head>
+{% extends 'core/base.html' %}
 
-<header>
-    <h1>Mi Web Personal</h1>
+{% block title %}Acerda de{% endblock %}
 
-    <ul>
-        <li><a href="/">Portada</a></li>
-        <li><a href="/about-me">Acerca de</a></li>
-        <li><a href="/porfolio">Porfolio</a></li>
-        <li><a href="/contact">Contacto</a></li>
-    </ul>
-</header>
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
 
-<body>
-    <h2>Sobre mi</h2>
+{% block headers %}
+<h1>Acerca de</h1>
+<span class="subheading">Biografia</span>
+{% endblock %}
 
-    <p>Me llamo Tipo de Incognito y soy desarrollador</p>
-</body>
+{% block content %}
+<div class="row">
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Juan Pérez</h2>   
+        <p>Nacido en... lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit...</p>
+    </div>
+</div>
+{% endblock %}
