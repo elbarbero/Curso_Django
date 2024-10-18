@@ -12,9 +12,6 @@ from django.shortcuts import render, HttpResponse
 def home(request):
     return render(request=request, template_name="core/home.html")
 
-def porfolio(request):
-    return render(request=request, template_name="core/porfolio.html")
-
 def contact(request):
     return render(request=request, template_name="core/contact.html")
 
